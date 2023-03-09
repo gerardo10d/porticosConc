@@ -1,0 +1,26 @@
+<!DOCTYPE html>  
+<html>  
+<body>  
+<h1>Diseño de vigas</h1>  
+<p>Por favor, introduce datos iniciales:</p>  
+<p>Phi:</p><input id="phi"><br>  
+<p>As:</p><input id="As">  
+<button type="button" onclick="myFunction()">Sumar</button>  
+<p id="sumando"></p>  
+<script>  
+ 
+  var x,y,suma;  
+  x = document.getElementById("phi").value;  
+  y = document.getElementById("As").value;  
+  /*if (isNaN(x) || isNaN(y)) {  
+    text = "Es necesarios introducir dos números válidos";  
+  } else {  
+    si no ponemos parseFloat concatenaría x con y  
+    */suma=parseFloat(x)+parseFloat(y);  
+    //text= suma;  
+  
+  document.getElementById("sumando").innerHTML = suma;  
+ 
+</script>  
+</body>  
+</html>  

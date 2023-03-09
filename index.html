@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estructuras de concreto</title>
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- <link rel="stylesheet" href="estilos.css" /> -->
+    <script src="Codigo.js"></script>
+  </head>
+  <body>
+    <header>
+      <!-- <input type="checkbox" id="menu" /> -->
+      <!-- <img class="menu-icono" src="imagenes/menu-icono.png" alt="menu" /> -->
+
+      <ul style="display: flex; justify-content: space-around; list-style: none">
+        <li><button type="button" class="btn btn-primary">Inicio</button></li>
+        <li><button type="button" class="btn btn-light">Introducción</button></li>
+        <li><button type="button" class="btn btn-light">Normas</button></li>
+        <li><button type="button" class="btn btn-light">Cálculos</button></li>
+      </ul>
+
+    </header>
+
+    <h3 style="text-align: center">Estructuras de concreto</h3>
+    <p style="text-align: center">
+      Introducción al calculo de estructuras de concreto
+    </p>
+    <form style="width: 25%; margin: 2rem">
+      <div class="mb-3">
+        <label for="numPisos" class="form-label">Número de pisos</label>
+        <input
+          type="number"
+          min="1"
+          max="5"
+          class="form-control"
+          id="numPisos"
+        />
+        <div class="form-text">
+          Debe introducir un número entre 1 y 5.
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="anchoEdificio" class="form-label">Ancho</label>
+        <input
+          type="number"
+          min="0"
+          step="any"
+          class="form-control"
+          id="anchoEdificio"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="largoEdificio" class="form-label">Largo</label>
+        <input
+          type="number"
+          min="0"
+          step="any"
+          class="form-control"
+          id="largoEdificio"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="cargaViva" class="form-label">Carga viva</label>
+        <input
+          type="number"
+          min="0"
+          step="any"
+          class="form-control"
+          id="cargaViva"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="cargaMuerta" class="form-label">Carga muerta</label>
+        <input
+          type="number"
+          min="0"
+          step="any"
+          class="form-control"
+          id="cargaMuerta"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="areaEdificio" class="form-label">Área del edificio</label>
+        <input
+          type="number"
+          min="0"
+          step="any"
+          class="form-control"
+          id="areaEdificio"
+        />
+      </div>
+      <button type="button" class="btn btn-primary" onclick="calcularArea()">Enviar</button>
+    </form>
+
+    <main class="Servicios">
+      <h1>Complementos</h1>
+      <p>Introducción al calculo de estructuras de concreto</p>
+
+      <div class="grupo-servicios">
+        <img src="imagenes/1.jpg" alt="" />
+        <h3>Normas Nsr10</h3>
+      </div>
+      <div class="grupo-servicios">
+        <img src="imagenes/2.png" alt="" />
+        <h3>Documentos</h3>
+      </div>
+      <div class="grupo-servicios">
+        <img src="imagenes/3.png" alt="" />
+        <h3>Libros guia</h3>
+      </div>
+    </main>
+
+    <section class="menu">
+      <div class="menu-txt">
+        <h2>Menu</h2>
+      </div>
+      <div class="imgs">
+        <img src="imagenes/foto1.jpg" alt="" />
+        <img src="imagenes/foto2.jpg" alt="" />
+      </div>
+    </section>
+
+    <section class="fondo">
+      <div class="fondo-txt">
+        <h2>Informacion</h2>
+      </div>
+    </section>
+
+    <footer>
+      <div class="ft">
+        <div class="enlace">
+          <h3>Anexos</h3>
+          <li><a href="s">Link 1</a></li>
+          <li><a href="s">Link 2</a></li>
+          <li><a href="s">Link 3</a></li>
+          <li><a href="s">Link 4</a></li>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

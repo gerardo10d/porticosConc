@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructuras de concreto</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <div class="menu container">
+            <a href="s" class="logo"></a>
+            <input type="checkbox" id="menu">
+            <label for="menu"></label>
+                <img class="menu-icono" src="imagenes/menu-icono.png" alt="menu">
+             </label>        
+            <nav class="navbar">
+                <ul>
+                    <li><a href="s">Inicio</a></li>
+                    <li><a href="s">Introducción</a></li>
+                    <li><a href="s">Normas</a></li>
+                    <li><a href="s">Calculos</a></li>                       
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-text">
+        <h1>Estructuras de concreto</h1>
+        <p>Introducción al calculo de estructuras de concreto</p>
+        </div>
+    </header>
+
+    <fomr>
+        <h3>Numero de pisos: <input type="text"></h3>
+        <h3>Ancho: <input type="text"></h3>
+        <h3>Largo: <input type="text"></h3>
+        <h3>Carga viva: <input type="text"></h3>
+        <h3>Carga muerta: <input type="text"></h3>
+        <input type="submit" value="Enviar" class="boton2">
+    </form>
+
+    <main class="Servicios">
+        <h1>Complementos</h1>
+        <p>Introducción al calculo de estructuras de concreto</p>
+
+        <div class="grupo-servicios">
+            <img src="imagenes/1.jpg" alt="">
+            <h3>Normas Nsr10</h3> 
+            
+        </div>
+        <div class="grupo-servicios">
+            <img src="imagenes/2.png" alt="">
+            <h3>Documentos</h3> 
+            
+        </div>
+        <div class="grupo-servicios">
+            <img src="imagenes/3.png" alt="">
+            <h3>Libros guia</h3> 
+            
+        </div>
+    </main>
+
+    <section class="menu">
+        <div class="menu-txt">
+            <h2>Menu</h2> 
+         
+        </div>
+        <div class="imgs">
+            <img src="imagenes/foto1.jpg" alt=""> 
+            <img src="imagenes/foto2.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="fondo">
+        <div class="fondo-txt">
+            <h2>Informacion</h2>
+            </div>
+    </section>
+   
+    
+    <footer>
+        <div class="ft">
+            <div class="enlace">
+            <h3>Anexos</h3>    
+            <li><a href="s">Link 1</a></li>  
+            <li><a href="s">Link 2</a></li>  
+            <li><a href="s">Link 3</a></li>  
+            <li><a href="s">Link 4</a></li>  
+            </div>    
+        </div>
+            
+            
+        <div>
+
+        </div>
+    </footer>
+
+
+</body>
+</html>
